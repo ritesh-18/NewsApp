@@ -3,7 +3,7 @@ function getNews(country , category){
     document.getElementById("newsId").innerHTML=''
 
 
-fetch("https://newsapi.org/v2/top-headlines?country="+country+"&category="+category+"&apiKey=09c00411fe4b4aa1bad8313691e1c358").then((res)=>{
+fetch("https://newsapi.org/v2/top-headlines?country="+country+"&category="+category+"&apiKey=yourApiKey").then((res)=>{
     return res.json()
 }).then((data)=>{
   let news=data.articles;
