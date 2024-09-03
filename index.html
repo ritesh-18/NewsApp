@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header -->
+     <header  class="header">
+       <div class="header_container">
+        <div class="logo">
+            <p>NewsApp</p>
+        </div>
+        <!-- search news using country options -->
+      <div class="search">
+          <select name="" id="country" class="input-Class">
+            <option value="">Select Country</option>
+            <option value="in">India</option>
+            <option value="us">United State</option>
+            <option value="au">Australia</option>
+            <!-- <option value="rus">Russia</option> -->
+          </select>
+        <!-- categories  -->
+         <select name="" id="category" class="category-Class">
+            <option value="">Select Category</option>
+            <option value="politics">Politics</option>
+            <option value="business">Bussiness</option>
+            <option value="technology">Technology</option>
+         </select>
+
+         <!-- fetch news -->
+          <button class="btn" onclick="search()">Get News</button>
+      </div>
+
+       </div>
+     </header>
+
+        
+       <!-- News Section -->
+
+       <section class="news" id="newsId">
+        <!-- <div class="news-card">
+            <div class="news-img">
+                <img class="img" alt="img" src="./pexels-photo-459728.jpeg"></img>
+            </div>
+            <div class="news-detail">
+               <h1 class="title">Title</h1>
+               <p class="author"> -Author</p>
+               <p class="content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti dolor reiciendis itaque obcaecati non iure. Cum, consectetur quibusdam omnis velit incidunt fuga!</p>
+               <button class="btn">
+                Read More
+               </button>
+            </div>
+        </div> -->
+    </section>
+        
+    
+
+    <script src="script.js"></script>
+   
+</body>
+</html>

@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    /* width: 100%; */
+    height: 80px;
+    background-color: lightgray;
+    padding: 0px 50px;
+}
+
+.header_container {
+    /* background-color: red; */
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.logo {
+    width: 10%;
+    height: 80px;
+    /* background-color: yellow; */
+    font-size: 30px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.search {
+    width: 50%;
+    height: 80px;
+    /* background-color: lightgreen; */
+    padding: 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2%;
+}
+
+.input-Class,
+.category-Class {
+    width: 35%;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-indent: 10px;
+    outline: none;
+
+}
+
+.btn {
+    padding: 12px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgb(99, 99, 188);
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background-color: rgb(42 42 141);
+}
+
+
+/* css For news Section */
+
+.news {
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2%;
+    row-gap: 20px;
+    /* background-color: gray; */
+
+
+}
+
+.news-card {
+    width: 32%;
+    /* height: 300px; */
+    background-color: white;
+    display: flex;
+    box-shadow: 0 0 5px lightgray;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.news-img {
+    height: 300px;
+    width: 40%;
+    /* background-color: yellow; */
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+.img {
+    height: 100%;
+
+
+}
+
+.news-detail {
+    padding-left: 12px;
+    width: 60%;
+    /* height: 300px; */
+    /* background-color: pink; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    align-items: flex-start;
+}
+
+.news-detail>button {
+    padding: 8px 6px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 6px;
+    background-color: rgb(99, 99, 188);
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+.author{
+   color:gray;
+   font-style: italic;
+}
+.content{
+    color: #464646;
+
+}
